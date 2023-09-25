@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfAppFun.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppFun"
+        xmlns:controls="clr-namespace:WpfAppFun.Controls"
+        xmlns:views="clr-namespace:WpfAppFun.Views"
+        mc:Ignorable="d"
+        Title="App" Height="450" Width="800"
+        BorderBrush="Black"
+        BorderThickness="1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <controls:Header/>
+        
+        <views:MainPage Grid.Row="1"/>
+        
+        <controls:MainStatusBar Grid.Row="2"/>
+        
+    </Grid>
+</Window>

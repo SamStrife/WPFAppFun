@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="WpfAppFun.Views.MainPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WpfAppFun.Views"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Name="PinkPanel" Background="HotPink">
+            <Button Name="SwitchMainWindowButton" 
+                    Click="SwitchMainWindowButton_Click"
+                    Content="Switch"
+                    Margin="5"
+                    />
+            
+            <Button Name="AddFriendButton" 
+                    Click="AddFriendButton_Click"
+                    Content="Add Friend"
+                    Margin="5"
+            />
+            
+            <ListBox Name="FriendsList"
+                     Margin="5">
+                <DataTemplate DataType="{x:Type local:FriendListName}">
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding Emoji}"/>
+                        <TextBlock Grid.Column="1" Text="{Binding Name}"/> 
+                    </Grid>
+                </DataTemplate>
+            </ListBox>
+        </StackPanel>
+        
+        <StackPanel Grid.Column="1" Name="GreyPanel" Background="Gainsboro">
+            <TextBlock Margin="5">Hello</TextBlock>
+        </StackPanel>
+    </Grid>
+</UserControl>
