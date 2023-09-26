@@ -53,3 +53,8 @@ D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\WpfAppFun.AssemblyInfo.
 D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\WpfAppFun.csproj.CoreCompileInputs.cache
 D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\WpfAppFun.genruntimeconfig.cache
 D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\ref\WpfAppFun.dll
+D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\App.baml
+D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\Resources\Brushes.baml
+D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\Resources\Converters.baml
+D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\Views\GamesView.g.cs
+D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\Views\GamesView.baml

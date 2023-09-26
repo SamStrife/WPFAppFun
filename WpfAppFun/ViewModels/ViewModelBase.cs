@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 
 namespace WpfAppFun.ViewModels;
 
@@ -11,4 +12,6 @@ public class ViewModelBase : INotifyPropertyChanged
 	{
 		PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 	}
+
+	public virtual Task LoadAsync() => Task.CompletedTask;
 }

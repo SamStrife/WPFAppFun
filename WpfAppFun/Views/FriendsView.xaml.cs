@@ -1,24 +1,13 @@
-﻿using System.Windows;
-using System.Windows.Controls;
-using WpfAppFun.DataAccess;
-using WpfAppFun.ViewModels;
+﻿using System.Windows.Controls;
 
 namespace WpfAppFun.Views;
 
-public partial class MainPage : UserControl
+public partial class FriendsView : UserControl
 {
-	private FriendListViewModel _viewModel;
 
-	public MainPage()
+	public FriendsView()
 	{
 		InitializeComponent();
-		_viewModel = new FriendListViewModel(new FriendDataProvider());
-		DataContext = _viewModel;
-		Loaded += FriendsView_Loaded;
 	}
 
-	private async void FriendsView_Loaded(object sender, RoutedEventArgs e)
-	{
-		await _viewModel.LoadAsync();
-	}
 }

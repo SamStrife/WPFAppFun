@@ -60,7 +60,7 @@ public class FriendListViewModel : ViewModelBase
 	public DelegateCommand RemoveCommand { get; }
 	public DelegateCommand MoveNavigationCommand { get; }
 
-	public async Task LoadAsync()
+	public async override Task LoadAsync()
 	{
 		if (Friends.Any()) return;
 

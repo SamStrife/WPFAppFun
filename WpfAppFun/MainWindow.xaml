@@ -6,6 +6,7 @@
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:local="clr-namespace:WpfAppFun"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:viewModel="clr-namespace:WpfAppFun.ViewModels"
 	xmlns:views="clr-namespace:WpfAppFun.Views"
 	Title="App"
 	Width="800"
@@ -13,18 +14,40 @@
 	BorderBrush="Black"
 	BorderThickness="1"
 	mc:Ignorable="d">
+	<Window.Resources>
+		<DataTemplate DataType="{x:Type viewModel:FriendListViewModel}">
+			<views:FriendsView />
+		</DataTemplate>
+		<DataTemplate DataType="{x:Type viewModel:GamesViewModel}">
+			<views:GamesView />
+		</DataTemplate>
+	</Window.Resources>
 	<Grid>
 		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="*" />
 			<RowDefinition Height="Auto" />
 		</Grid.RowDefinitions>
 
-		<controls:Header />
+		<Menu>
+			<MenuItem Header="_View">
+				<MenuItem
+					Command="{Binding SelectViewModelCommand}"
+					CommandParameter="{Binding FriendListViewModel}"
+					Header="_Friends" />
+				<MenuItem
+					Command="{Binding SelectViewModelCommand}"
+					CommandParameter="{Binding GamesViewModel}"
+					Header="_Games" />
+			</MenuItem>
+		</Menu>
 
-		<views:MainPage Grid.Row="1" />
+		<controls:Header Grid.Row="1" />
 
-		<controls:MainStatusBar Grid.Row="2" />
+		<ContentControl Grid.Row="2" Content="{Binding SelectedViewModel}" />
+
+		<controls:MainStatusBar Grid.Row="3" />
 
 	</Grid>
 </Window>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\Learning\WPFAppFun\WpfAppFun\App.xaml
-41646873728
+7-1437875295
 
-13775832636
+16-431267915
 198-759771931
-Controls\Header.xaml;Controls\MainStatusBar.xaml;MainWindow.xaml;Views\FriendsView.xaml;
+Controls\Header.xaml;Controls\MainStatusBar.xaml;MainWindow.xaml;Resources\Brushes.xaml;Resources\Converters.xaml;Views\FriendsView.xaml;Views\GamesView.xaml;
 
 False
 
