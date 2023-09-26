@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Projects\WpfAppFun\WpfAppFun\obj\Debug\net7.0-windows\
+D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\
 WpfAppFun
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-D:\Projects\WpfAppFun\WpfAppFun\App.xaml
-4-1031118898
+D:\Learning\WPFAppFun\WpfAppFun\App.xaml
+41646873728
 
-6152910115
-198-1736014856
-Controls\Header.xaml;Controls\MainStatusBar.xaml;MainWindow.xaml;Views\MainPage.xaml;
+13775832636
+198-759771931
+Controls\Header.xaml;Controls\MainStatusBar.xaml;MainWindow.xaml;Views\FriendsView.xaml;
 
 False
 
