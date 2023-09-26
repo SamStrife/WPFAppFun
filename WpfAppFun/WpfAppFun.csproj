@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <None Remove="Assets\Images\Iconarchive-Cute-Animal-Cute-Cat.1024.png" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
       <Resource Include="Assets\Images\Iconarchive-Cute-Animal-Cute-Cat.1024.png" />
     </ItemGroup>
     

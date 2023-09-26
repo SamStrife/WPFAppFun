@@ -58,3 +58,7 @@ D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\Resources\Brushes.baml
 D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\Resources\Converters.baml
 D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\Views\GamesView.g.cs
 D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\Views\GamesView.baml
+D:\Learning\WPFAppFun\WpfAppFun\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Learning\WPFAppFun\WpfAppFun\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\WpfAppFun.csproj.AssemblyReference.cache
+D:\Learning\WPFAppFun\WpfAppFun\obj\Debug\net7.0-windows\WpfAppFun.csproj.CopyComplete

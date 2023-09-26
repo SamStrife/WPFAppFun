@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RER6L6MUXVrFmGfN3u8Nsb/BcbiYQObH0kLs/ogTHy78xYPWQQsykA8K/H2Jcgx5YV6Rd7vhV+iXeyFmNOwTCg==",
+  "dgSpecHash": "vFCzIHaWvU0OQi00fD8+HVDpQL9ZiznKSBdN+t6ppPPBMbThn8G9BZyGN1wcdoUVXJqjwksMCqueqfYDzyIN1g==",
   "success": true,
   "projectFilePath": "D:\\Learning\\WPFAppFun\\WpfAppFun\\WpfAppFun.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

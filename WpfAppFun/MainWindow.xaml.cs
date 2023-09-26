@@ -1,5 +1,4 @@
 ﻿using System.Windows;
-using WpfAppFun.DataAccess;
 using WpfAppFun.ViewModels;
 
 namespace WpfAppFun
@@ -8,12 +7,10 @@ namespace WpfAppFun
 	{
 		private readonly MainViewModel _viewModel;
 
-		public MainWindow()
+		public MainWindow(MainViewModel viewModel)
 		{
 			InitializeComponent();
-			_viewModel = new MainViewModel(
-				new FriendListViewModel(new FriendDataProvider()),
-				new GamesViewModel());
+			_viewModel = viewModel;
 			DataContext = _viewModel;
 			Loaded += MainWindow_Loaded;
 		}
